@@ -56,36 +56,54 @@
 
         <form action="#" class="formulario">
             <div>
-                <label for="Nombre">Nombre y apellido <br>
-                    <input class="formulario_input" type="text" name="Nombre y apellido">
-                </label>
-                <label for="email">Correo electrónico <br>
-                    <input class="formulario_input" type="email" placeholder="ejemplo@gmail.com" name="email">
-                </label>
-                <label for="Telefono">Telefono <br>
-                    <input class="formulario_input" type="text" name="Telefono">
-                </label>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Nombre y apellido</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Correo electrónico</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Telefono</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2">
+                </div>
             </div>
             <div>
                 <label for="Tipo de presupuesto"> Me gustaría recibir presupuesto de: <br>
-                    <input class="formulario_input" type="radio" id="Muebles" name="tipo_de_presupuesto"
-                        value="Muebles">
-                    <label for="Muebles">Muebles</label>
-                    <input class="formulario_input" type="radio" id="Sillas/Sillones" name="tipo_de_presupuesto"
-                        value="Sillas/Sillones">
-                    <label for="Silla/Sillones">Sillas/Sillones </label>
-                    <input class="formulario_input" type="radio" id="Otros" name="tipo_de_presupuesto" value="Otros">
-                    <label for="Otros">Otros:</label> <br>
-                    <textarea class="formulario_input" name="Especificar" placeholder="Especificar"></textarea>
-                </label>
-                <label for="Mensaje"> Mensaje <br>
-                    <textarea class="formulario_input" name="Mensaje" placeholder="Dejanos tu mensaje"></textarea>
-                </label>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio1">Sillas/Sillones</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio1">Muebles</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio2">Otros:</label>
+                        <label for="exampleFormControlTextarea1"></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Especificar" rows="2"></textarea>
+                    </div>
             </div>
+            <div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Dejanos tu mensaje"
+                        rows="4"></textarea>
+                </div>
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="customFileLang" lang="es">
+                    <label class="custom-file-label" for="customFileLang">Seleccionar Archivo</label>
+                </div>
+            </div>
+
+
             <section class="buttons">
-                <input class="button" type="reset" value="Limpiar formulario">
-                <input class="button" type="submit" value="Enviar">
+                <input class="btn btn-primary mb-2" type="reset" value="Limpiar formulario">
+                <input type="submit" class="btn btn-primary mb-2" value="Enviar">
             </section>
+
         </form>
 
 

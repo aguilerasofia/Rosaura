@@ -159,12 +159,12 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin: 5px;
+    margin: 0px 5px;
     padding: 5px;
 }
 
 .footer_section h3 {
-    margin: 10px;
+    margin: 5px;
     text-decoration: underline;
     text-align: center;
     display: flex;
