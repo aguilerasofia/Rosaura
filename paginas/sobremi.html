@@ -83,14 +83,20 @@
             <h3>Newsletter</h3>
             <div>
                 <article>
-                    <form action="#">
-                        <label for="Nombre">
-                            <input type="text" name="Nombre" placeholder="Nombre">
-                        </label>
-                        <label for="Email">
-                            <input type="email" name="Email" placeholder="Email"> <br>
-                        </label>
-                        <input type="submit" value="Enviar" class="button">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1"></label>
+                            <input type="text" class="form-control form-control-sm" id="formGroupExampleInput" placeholder="Nombre y Apellido">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1"></label>
+                            <input type="email" class="form-control form-control-sm" id="exampleInputEmail1" placeholder="Correo electronico" aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Acepto recibir ofertas y promociones</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
                     </form>
                 </article>
             </div>
