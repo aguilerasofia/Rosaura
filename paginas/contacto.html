@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es"> 
+<html lang="es">
 
 
 
@@ -21,54 +21,54 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
-<body>
+<body class="container-fluid">
 
-    
-    <header class="animate__animated animate__heartBeat">
-        <h1>Rosaura</h1>
-        <nav id="NavBar">
-            <ul>
-                <li><a href="..\index.html">Inicio </a></li>
-                <li><a href="restauracion.html">Restauración </a></li>
-                <li><a href="articulos.html">Articulos </a></li>
-                <li><a href="sobremi.html">Sobre Mi </a></li>
-                <li><a href="contacto.html">Contacto </a></li>
-            </ul>
-        </nav>
+
+    <header class="row animate__animated animate__heartBeat">
+        <div class="col">
+            <h1>Rosaura</h1>
+            <nav id="NavBar">
+                <ul>
+                    <li><a href="..\index.html">Inicio </a></li>
+                    <li><a href="restauracion.html">Restauración </a></li>
+                    <li><a href="articulos.html">Articulos </a></li>
+                    <li><a href="sobremi.html">Sobre Mi </a></li>
+                    <li><a href="contacto.html">Contacto </a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <a href="https://wa.me/5493416398200?" class="whatsapp" target="_blank" > </a>
+    <a href="https://wa.me/5493416398200?" class="whatsapp" target="_blank"> </a>
 
 
-    <main class="sobremi">
-        <div class="img_portada">
-            <img src="../multimedia/ropero.jpeg" width="500" height="200" title="Portada1" >
-            <img src="../multimedia/respaldo.jpeg" width="500" height="200" title="Portada2" >
+    <main class="row sobremi">
+        <div class="col img_portada">
+            <img src="../multimedia/ropero.jpeg" width="400" height="200" title="Portada1">
         </div>
-		<h1>Contacto</h1>
-		<form class="formulario_contacto" action="#">
-                <label for="Nombre">Nombre <br>
-				<input class="formulario_input" type="text" name="Nombre"> <br>
-                </label>
-				<label for="email">Email <br>
-				<input class="formulario_input" type="email" placeholder="ejemplo@gmail.com" name="email"><br>
-				</label>
-                <label for="Telefono">Telefono (Opcional) <br>
-                <input class="formulario_input" type="text" name="Telefono" > <br>
-                </label>
-				<label for="Mensaje"> Mensaje <br>
-				<textarea class="formulario_input" name="Mensaje" placeholder="Dejanos tu mensaje"></textarea> <br>
-                </label>
-                <section class="buttons">
-                    <input class="button" type="reset" value="Limpiar formulario">
-                    <input class="button" type="submit" value="Enviar">
-                </section>
-		</form>
+        <form class="col formulario_contacto" action="#">
+            <label for="Nombre">Nombre <br>
+                <input class="formulario_input" type="text" name="Nombre"> <br>
+            </label>
+            <label for="email">Email <br>
+                <input class="formulario_input" type="email" placeholder="ejemplo@gmail.com" name="email"><br>
+            </label>
+            <label for="Telefono">Telefono (Opcional) <br>
+                <input class="formulario_input" type="text" name="Telefono"> <br>
+            </label>
+            <label for="Mensaje"> Mensaje <br>
+                <textarea class="formulario_input" name="Mensaje" placeholder="Dejanos tu mensaje"></textarea> <br>
+            </label>
+        </form>
+        <section class="col buttons">
+            <input class="btn btn-primary " type="reset" value="Limpiar formulario">
+            <input class="btn btn-primary " type="submit" value="Enviar">
+        </section>
     </main>
 
 
-    <section>
-        <div class="portada">
+    <section class="row">
+        <div class="col">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.009454861397!2d-60.63182368481346!3d-32.95075978091985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab1d494fd843%3A0x6075897878f62cb4!2sSan%20Luis%20443%2C%20S2000%20Rosario%2C%20Santa%20Fe!5e0!3m2!1sen!2sar!4v1645918551922!5m2!1sen!2sar"
                 width="700" height="130" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -132,4 +132,5 @@
     </script>
 
 </body>
+
 </html>

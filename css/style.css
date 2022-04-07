@@ -139,11 +139,6 @@ footer div {
     padding: 3px;
 }
 
-/* .list{
-    display: flex;
-    flex-direction: column;
-
-} */
 
 
 /* RESTAURACIONES */
@@ -172,16 +167,11 @@ footer div {
 
 /* ARTICULOS */
 
-#productos {
-    flex-direction: column;
-    align-items: center;
-}
 
 #productos h1 {
     font-size: 200%;
     font-weight: 200;
     color: #a5a58d;
-    text-decoration: underline;
     text-align: center;
 }
 
@@ -193,31 +183,21 @@ footer div {
 
 #productos div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     list-style: none;
 }
 
 .galeria_productos {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    margin: 10px 200px;
+    margin: 10px;
 }
 
 
 
 /* BOTONES */
 
-.button {
-    margin: 8px;
-    background-color: #e9edc9;
-    color: black;
-    width: auto;
-    height: 25px;
-    padding: 2px;
-    font-weight: bold;
-}
 
 .button_link {
     display: flex;
@@ -300,8 +280,10 @@ footer div {
 .img_portada {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 10px;
     flex-direction: row;
+    width: fit-content;
 }
 
 .img_portada img {
@@ -476,7 +458,7 @@ h2 {
         width: 200px;
     }
 
-    .sobremi{
+    .sobremi div{
         display: flex;
         flex-flow: column wrap;
     }
