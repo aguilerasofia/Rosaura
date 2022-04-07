@@ -18,7 +18,8 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #d4a373bf;
 }
 
 
@@ -40,37 +41,23 @@ a:hover {
 
 /* INDEX */
 
-body {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.7fr auto 2fr 1fr auto;
-    grid-template-areas:
-        "header header header"
-        "section section section"
-        "main main main"
-        "portada portada portada"
-        "footer footer footer";
+body{
+    overflow-x: hidden;
 }
 
-
 header {
-    grid-area: header;
     color: #d4a373;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 
 header h1 {
     font-size: 300%;
     font-weight: 90;
+    text-align: center;
 }
 
 
 #NavBar ul {
-    border: 1px solid #d4a373;
     margin: 5px;
     display: flex;
     flex-direction: row;
@@ -82,27 +69,18 @@ header h1 {
     margin: 10px 10px;
 }
 
-
-#carousel {
-    grid-area: section;
-    margin: 10px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-
-main {
-    grid-area: main;
-}
-
-
 main h1 {
     font-size: 200%;
     font-weight: 200;
     margin: 10px;
     color: #a5a58d;
-    text-decoration: underline;
     text-align: center;
+}
+
+.carousel-item img{
+    width: auto;
+    height: 50vh;
+    object-fit: cover;
 }
 
 
@@ -135,7 +113,6 @@ main h1 {
 }
 
 article {
-    grid-area: portada;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,7 +122,6 @@ article {
 /* FOOTER */
 
 footer {
-    grid-area: footer;
     height: 100%;
     border: solid 2px #cb997e;
     color: #d4a373;
@@ -164,7 +140,7 @@ footer {
 }
 
 .footer_section h3 {
-    margin: 5px;
+    margin: 2px;
     text-decoration: underline;
     text-align: center;
     display: flex;
@@ -172,10 +148,11 @@ footer {
 }
 
 
+
+
 /* RESTAURACIONES */
 
 #restauraciones {
-    grid-area: section;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -200,7 +177,6 @@ footer {
 /* ARTICULOS */
 
 #productos {
-    grid-area: section;
     flex-direction: column;
     align-items: center;
 }
@@ -371,7 +347,6 @@ h2 {
 
 
     #carousel {
-        grid-area: section;
         margin: 10px;
         padding: 5px;
         display: flex;
@@ -430,18 +405,6 @@ h2 {
 
 @media screen and (max-width: 375px) {
 
-    body {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr auto 2fr 0.5fr 0.5fr;
-        grid-template-areas:
-            "header header header"
-            "section section section"
-            "main main main"
-            "portada portada portada"
-            "footer footer footer";
-    }
-
 
     #NavBar ul {
         border: 1px solid #d4a373;
@@ -461,17 +424,7 @@ h2 {
         text-align: center;
     }
 
-    .portada{
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    .portada iframe{
-        width: auto;
-    }
-
     footer {
-        grid-area: footer;
         height: 100%;
         border: solid 2px #cb997e;
         color: #d4a373;
