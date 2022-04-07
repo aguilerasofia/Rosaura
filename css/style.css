@@ -112,7 +112,7 @@ main h1 {
     margin: 5px 10px;
 }
 
-article {
+section div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,28 +125,16 @@ footer {
     height: 100%;
     border: solid 2px #cb997e;
     color: #d4a373;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
-.footer_section div {
+footer div {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: space-between;
+    justify-content: flex-start;
     margin: 0px 5px;
     padding: 5px;
 }
-
-.footer_section h3 {
-    margin: 2px;
-    text-decoration: underline;
-    text-align: center;
-    display: flex;
-    align-items: center;
-}
-
 
 
 
