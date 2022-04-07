@@ -19,7 +19,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #d4a373bf;
+    color: #a4784cbf;
 }
 
 
@@ -39,11 +39,13 @@ a:hover {
     z-index: 100;
 }
 
-/* INDEX */
 
 body{
     overflow-x: hidden;
 }
+
+
+/* INDEX */
 
 header {
     color: #d4a373;
@@ -110,6 +112,8 @@ main h1 {
 
 .articulo {
     margin: 5px 10px;
+    width: 130px;
+    height: 130px;
 }
 
 section div {
@@ -130,12 +134,16 @@ footer {
 footer div {
     display: flex;
     flex-direction: column;
-    align-items: space-between;
+    align-items:center;
     justify-content: flex-start;
-    margin: 0px 5px;
-    padding: 5px;
+    padding: 3px;
 }
 
+/* .list{
+    display: flex;
+    flex-direction: column;
+
+} */
 
 
 /* RESTAURACIONES */
@@ -211,25 +219,24 @@ footer div {
     font-weight: bold;
 }
 
-.button_enlace {
+.button_link {
     display: flex;
     justify-content: center;
 }
 
-.button_enlace:hover{
-    transform: scale(1.2);
+.button_link:hover{
+    transform: scale(1.1);
 }
 
-.button_enlace a {
+.button_link a {
     text-decoration: none;
     font-size: 100%;
-    font-weight: 90;
-    font-weight: bold;
+    font-weight: 70;
     margin: 10px;
-    border: solid 3px #d4a373;
+    border: solid 1px #d4a373;
     padding: 8px;
     text-align: center;
-    background-color: #e9edc9;
+    background-color: #f9fce2;
 }
 
 .button_productos {
@@ -412,15 +419,6 @@ h2 {
         text-align: center;
     }
 
-    footer {
-        height: 100%;
-        border: solid 2px #cb997e;
-        color: #d4a373;
-        display: flex;
-        flex-flow: column;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
 
     .whatsapp {
         position: fixed;
