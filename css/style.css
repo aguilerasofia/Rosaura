@@ -159,7 +159,6 @@ footer div {
     font-size: 200%;
     font-weight: 200;
     color: #a5a58d;
-    text-decoration: underline;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -304,7 +303,6 @@ h2 {
     margin: 10px;
     color: #8c8c6f;
     text-align: center;
-    text-decoration: underline;
 }
 
 .texto {
@@ -377,6 +375,7 @@ h2 {
     .galeria_productos img{
         width: 175px;
     }
+
 
 }
 
@@ -462,5 +461,13 @@ h2 {
         display: flex;
         flex-flow: column wrap;
     }
+
+    footer div{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
 
     }
