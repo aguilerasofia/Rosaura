@@ -1,0 +1,35 @@
+.button_link {
+    display: flex;
+    justify-content: center;
+    &:hover{
+        transform: scale(1.1);
+    }
+    a{
+        text-decoration: none;
+        font-size: 100%;
+        font-weight: 70;
+        margin: 10px;
+        border: solid 1px #d4a373;
+        padding: 8px;
+        text-align: center;
+        background-color: #f9fce2;
+    }
+}
+
+.button_productos {
+    border: solid 2px #606c38;
+    background-color: #e4e4c2;
+    color: #606c38;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 5px;
+}

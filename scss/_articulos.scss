@@ -1,0 +1,25 @@
+#productos{
+    h1{
+        font-size: 200%;
+        font-weight: 200;
+        color: #a5a58d;
+        text-align: center;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style: none;
+    }
+}
+
+.galeria_productos {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
