@@ -61,11 +61,13 @@
     }
 
     .categorias_lista {
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: center;
-        list-style: none;
-        text-align: center;
+        ul{
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            list-style: none;
+            text-align: center;
+        }
     }
 
 

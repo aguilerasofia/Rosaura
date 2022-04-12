@@ -1,68 +1,54 @@
 .carousel-item img {
-    width: auto;
-    height: 50vh;
-    object-fit: cover;
-}
+  width: auto;
+  height: 50vh;
+  object-fit: cover; }
 
 .categorias_lista {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-}
-
-.categorias_lista li {
+  display: flex;
+  justify-content: center;
+  list-style: none; }
+  .categorias_lista li {
     color: #b7b7a4;
     font-size: 120%;
     border: 1px solid #b7b7a4;
     margin: 5px;
     padding: 5px;
-    list-style: none;
-}
+    list-style: none; }
 
 .galeria {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 10px;
-}
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10px; }
 
 .articulo {
-    margin: 5px 10px;
-    width: 130px;
-    height: 130px;
-}
+  margin: 5px 10px;
+  width: 130px;
+  height: 130px; }
 
 section div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5px;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px; }
 
 footer {
-    height: 100%;
-    border: solid 2px #cb997e;
-    color: #d4a373;
-}
-
-footer div {
+  height: 100%;
+  border: solid 2px #cb997e;
+  color: #d4a373; }
+  footer div {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    padding: 3px;
-}
+    padding: 3px; }
 
 .button_link {
-    display: flex;
-    justify-content: center;
-}
-
-.button_link:hover {
-    transform: scale(1.1);
-}
-
-.button_link a {
+  display: flex;
+  justify-content: center; }
+  .button_link:hover {
+    transform: scale(1.1); }
+  .button_link a {
     text-decoration: none;
     font-size: 100%;
     font-weight: 70;
@@ -70,342 +56,271 @@ footer div {
     border: solid 1px #d4a373;
     padding: 8px;
     text-align: center;
-    background-color: #f9fce2;
-}
+    background-color: #f9fce2; }
 
 .button_productos {
-    border: solid 2px #606c38;
-    background-color: #e4e4c2;
-    color: #606c38;
-    padding: 8px 12px;
-    font-size: 16px;
-    cursor: pointer;
-    display: block;
-    margin: auto;
-}
+  border: solid 2px #606c38;
+  background-color: #e4e4c2;
+  color: #606c38;
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin: auto; }
 
 .buttons {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    padding: 5px;
-}
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 5px; }
 
 @media screen and (max-width: 768px) {
-    .galeria {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-content: space-around;
-    }
-
-    #restauraciones div {
-        display: flex;
-        flex-flow: row wrap;
-        align-items: space-between;
-        justify-content: space-around;
-    }
-
-    .formulario {
-        font-size: 100%;
-        font-weight: 100;
-        color: #8c8c6f;
-        text-align: center;
-        display: flex;
-        flex-flow: column wrap;
-        align-items: center;
-        justify-content: center;
-        padding: 10px;
-        border: 2px solid #8c8c6f;
-    }
-
-    .formulario div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .img_portada {
-        display: flex;
-        justify-content: space-evenly;
-        margin: 0px 5px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .galeria_productos img {
-        width: 175px;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    #NavBar ul {
-        border: 1px solid #d4a373;
-        margin: 5px;
-        display: flex;
-        flex-flow: column wrap;
-        align-items: center;
-        list-style: none;
-    }
-
-    .categorias_lista {
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: center;
-        list-style: none;
-        text-align: center;
-    }
-
-    .whatsapp {
-        position: fixed;
-        width: 40px;
-        height: 40px;
-        bottom: 17px;
-        right: 20px;
-        background-color: #25d366;
-        color: #FFF;
-        border-radius: 50px;
-        text-align: center;
-        font-size: 20px;
-        z-index: 100;
-    }
-
-    .buttons {
-        flex-flow: column;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 5px;
-        margin: 10px;
-    }
-
-    #productos ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    main {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .galeria_productos {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .img_sobremi {
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        width: auto;
-    }
-
-    .img_portada img {
-        width: auto;
-    }
-
-    .galeria_productos img {
-        width: 200px;
-    }
-
-    .sobremi div {
-        display: flex;
-        flex-flow: column wrap;
-    }
-
-    footer div {
-        display: flex;
-        flex-flow: column wrap;
-        align-items: flex-start;
-        justify-content: flex-start;
-    }
-}
-
-.img_portada {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    flex-direction: row;
-    width: fit-content;
-}
-
-.img_portada img {
-    padding: 5px;
-}
-
-.img_sobremi {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
-
-h2 {
-    font-size: 150%;
-    font-weight: 300;
-    margin: 10px;
-    color: #8c8c6f;
-    text-align: center;
-}
-
-.texto {
-    text-align: justify;
-    text-indent: 2%;
-    line-height: 25px;
-    color: #606c38;
-    margin: 10px 20px;
-    border: solid 2px #606c38;
-    padding: 8px;
-}
-
-.formulario {
-    font-size: 100%;
-    font-weight: 100;
-    color: #8c8c6f;
-    text-align: left;
+  .galeria {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    padding: 10px;
-    border: 2px solid #8c8c6f;
-}
-
-.formulario div {
+    align-content: space-around; }
+  #restauraciones div {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.formulario_input {
-    height: 30px;
-    margin: 5px;
-}
-
-.formulario_contacto {
+    flex-flow: row wrap;
+    align-items: space-between;
+    justify-content: space-around; }
+  .formulario {
     font-size: 100%;
     font-weight: 100;
     color: #8c8c6f;
-    text-align: left;
+    text-align: center;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-}
-
-#productos h1 {
-    font-size: 200%;
-    font-weight: 200;
-    color: #a5a58d;
-    text-align: center;
-}
-
-#productos ul {
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-}
-
-#productos div {
+    padding: 10px;
+    border: 2px solid #8c8c6f; }
+    .formulario div {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+  .img_portada {
     display: flex;
+    justify-content: space-evenly;
+    margin: 0px 5px;
     flex-direction: column;
-    justify-content: center;
-    list-style: none;
-}
+    align-items: center; }
+  .galeria_productos img {
+    width: 175px; } }
 
-.galeria_productos {
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-}
-
-#restauraciones {
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#restauraciones h1 {
-    font-size: 200%;
-    font-weight: 200;
-    color: #a5a58d;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.carousel_img {
-    margin: 5px 10px;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    font-size: 62, 5%;
-    font-family: "Julius Sans One", sans-serif;
-    background-color: #fefae0;
-}
-
-body {
-    overflow-x: hidden;
-}
-
-header {
-    color: #d4a373;
-}
-
-header h1 {
-    font-size: 300%;
-    font-weight: 90;
-    text-align: center;
-}
-
-a {
-    color: #d4a373;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-    color: #a4784cbf;
-}
-
-main h1 {
-    font-size: 200%;
-    font-weight: 200;
-    margin: 10px;
-    color: #a5a58d;
-    text-align: center;
-}
-
-#NavBar ul {
+@media screen and (max-width: 375px) {
+  #NavBar ul {
+    border: 1px solid #d4a373;
     margin: 5px;
     display: flex;
-    flex-direction: row;
+    flex-flow: column wrap;
+    align-items: center;
+    list-style: none; }
+  .categorias_lista ul {
+    display: flex;
+    flex-flow: column wrap;
     justify-content: center;
     list-style: none;
-}
-
-#NavBar ul li {
-    margin: 10px 10px;
-}
-
-.whatsapp {
+    text-align: center; }
+  .whatsapp {
     position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 50px;
-    right: 40px;
+    width: 40px;
+    height: 40px;
+    bottom: 17px;
+    right: 20px;
     background-color: #25d366;
     color: #FFF;
     border-radius: 50px;
     text-align: center;
     font-size: 20px;
-    z-index: 100;
-}
+    z-index: 100; }
+  .buttons {
+    flex-flow: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 10px; }
+  #productos ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center; }
+  .galeria_productos {
+    display: flex;
+    flex-wrap: wrap; }
+  .img_sobremi {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: auto; }
+  .img_portada img {
+    width: auto; }
+  .galeria_productos img {
+    width: 200px; }
+  .sobremi div {
+    display: flex;
+    flex-flow: column wrap; }
+  footer div {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: flex-start; } }
+
+.img_portada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  flex-direction: row;
+  width: fit-content; }
+
+.img_portada img {
+  padding: 5px; }
+
+.img_sobremi {
+  display: flex;
+  justify-content: center;
+  margin: auto; }
+
+h2 {
+  font-size: 150%;
+  font-weight: 300;
+  margin: 10px;
+  color: #8c8c6f;
+  text-align: center; }
+
+.texto {
+  text-align: justify;
+  text-indent: 2%;
+  line-height: 25px;
+  color: #606c38;
+  margin: 10px 20px;
+  border: solid 2px #606c38;
+  padding: 8px; }
+
+.formulario {
+  font-size: 100%;
+  font-weight: 100;
+  color: #8c8c6f;
+  text-align: left;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding: 10px;
+  border: 2px solid #8c8c6f; }
+  .formulario div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
+
+.formulario_input {
+  height: 30px;
+  margin: 5px; }
+
+.formulario_contacto {
+  font-size: 100%;
+  font-weight: 100;
+  color: #8c8c6f;
+  text-align: left;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center; }
+
+#productos h1 {
+  font-size: 200%;
+  font-weight: 200;
+  color: #a5a58d;
+  text-align: center; }
+
+#productos ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+#productos div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none; }
+
+.galeria_productos {
+  display: flex;
+  justify-content: center;
+  margin: 10px; }
+
+#restauraciones {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; }
+  #restauraciones h1 {
+    font-size: 200%;
+    font-weight: 200;
+    color: #a5a58d;
+    text-align: center;
+    margin-bottom: 10px; }
+
+.carousel_img {
+  margin: 5px 10px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62, 5%;
+  font-family: "Julius Sans One", sans-serif;
+  background-color: #fefae0; }
+
+body {
+  overflow-x: hidden; }
+
+header {
+  color: #d4a373; }
+  header h1 {
+    font-size: 300%;
+    font-weight: 90;
+    text-align: center; }
+
+a {
+  color: #d4a373;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none;
+    color: #a4784cbf; }
+
+main h1 {
+  font-size: 200%;
+  font-weight: 200;
+  margin: 10px;
+  color: #a5a58d;
+  text-align: center; }
+
+#NavBar ul {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none; }
+  #NavBar ul li {
+    margin: 10px 10px; }
+
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 50px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 20px;
+  z-index: 100; }
