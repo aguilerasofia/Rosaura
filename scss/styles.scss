@@ -1,13 +1,13 @@
 @import "index";
 @import "footer";
 @import "buttons";
-@import "mediaq";
 @import "contacto";
 @import "sobremi";
 @import "formularios";
 @import "articulos";
 @import "restauraciones";
 @import "variables";
+@import "mediaq";
 
 
 * {
@@ -43,13 +43,15 @@ a{
     }
 }
 
+
+
 main{
     h1{
-        font-size: 200%;
-        font-weight: 200;
-        margin: 10px;
-        color: #a5a58d;
-        text-align: center;
+        font-size: map-get($estilos, t-fuente);
+        font-weight: map-get($estilos, w-fuente);
+        margin: map-get($estilos, margen);
+        color: map-get($estilos, color);
+        text-align: map-get($estilos, centro);
     }
 }
 
