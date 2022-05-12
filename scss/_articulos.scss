@@ -20,6 +20,12 @@
 
 .galeria_productos {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 10px;
+}
+
+.producto{
+    height: 300px;
+    width: 300px;
+    margin: 5px;
 }

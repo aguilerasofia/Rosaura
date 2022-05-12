@@ -10,10 +10,10 @@
   .categorias_lista li {
     color: #b7b7a4;
     font-size: 120%;
-    border: 1px solid #b7b7a4;
     margin: 5px;
     padding: 5px;
-    list-style: none; }
+    list-style: none;
+    text-decoration: underline; }
 
 .galeria {
   display: flex;
@@ -34,7 +34,7 @@ section div {
 
 footer {
   height: 100%;
-  border: solid 2px #cb997e;
+  background-color: #ecf0cd;
   color: #d4a373; }
   footer div {
     display: flex;
@@ -74,13 +74,22 @@ footer {
   align-items: flex-end;
   padding: 5px; }
 
+.btn {
+  color: #f1f1d6;
+  background-color: #d4a373;
+  border: none;
+  margin-top: 3px; }
+  .btn:hover {
+    background-color: #bb854f; }
+
 .img_portada {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 10px;
   flex-direction: row;
-  width: fit-content; }
+  width: fit-content;
+  height: fit-content; }
 
 .img_portada img {
   padding: 5px; }
@@ -102,23 +111,23 @@ h2 {
   text-indent: 2%;
   line-height: 25px;
   color: #606c38;
+  background-color: #e0e4bc;
   margin: 10px 20px;
-  border: solid 2px #606c38;
   padding: 8px; }
 
 .texto2 {
-  background-color: antiquewhite; }
+  background-color: #ecf0cd; }
 
 .formulario {
   font-size: 100%;
-  font-weight: 100;
-  color: #8c8c6f;
+  font-weight: 150;
+  color: #89896e;
   text-align: left;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  padding: 10px;
-  border: 2px solid #8c8c6f; }
+  padding: 8px;
+  background-color: #ecf0cd; }
   .formulario div {
     display: flex;
     flex-direction: column;
@@ -126,16 +135,17 @@ h2 {
 
 .formulario_input {
   height: 30px;
-  margin: 5px; }
+  margin: 5px;
+  border: #89896e 0.5px solid; }
 
 .formulario_contacto {
   font-size: 100%;
-  font-weight: 100;
   color: #8c8c6f;
-  text-align: left;
+  text-align: center;
   display: flex;
   flex-flow: column wrap;
-  align-items: center; }
+  align-items: center;
+  justify-content: space-evenly; }
 
 #productos h1 {
   font-size: 200%;
@@ -156,8 +166,13 @@ h2 {
 
 .galeria_productos {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   margin: 10px; }
+
+.producto {
+  height: 300px;
+  width: 300px;
+  margin: 5px; }
 
 #restauraciones {
   margin: 10px;
@@ -195,12 +210,13 @@ h2 {
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    border: 2px solid #8c8c6f; }
+    padding: 10px; }
     .formulario div {
       display: flex;
       flex-direction: column;
       align-items: center; }
+      .formulario div img {
+        width: 250px; }
   .img_portada {
     display: flex;
     justify-content: space-evenly;
@@ -330,3 +346,6 @@ main h1 {
 
 .whatsapp-icon {
   margin-top: 13px; }
+
+.iframe {
+  margin: 50px 5px; }

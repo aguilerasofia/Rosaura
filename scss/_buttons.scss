@@ -33,3 +33,13 @@
     align-items: flex-end;
     padding: 5px;
 }
+
+.btn{
+    color: #f1f1d6;
+    background-color: #d4a373;
+    border: none;
+    margin-top: 3px;
+    &:hover{
+        background-color: #bb854f;
+    }
+}

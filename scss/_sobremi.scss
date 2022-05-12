@@ -17,12 +17,12 @@ h2 {
     text-indent: 2%;
     line-height: 25px;
     color: #606c38;
+    background-color: #e0e4bc;
     margin: 10px 20px;
-    border: solid 2px #606c38;
     padding: 8px;
 }
 
 .texto2{
     @extend .texto;
-    background-color:antiquewhite;
+    background-color: #ecf0cd; 
 }
