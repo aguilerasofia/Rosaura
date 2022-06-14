@@ -9,11 +9,16 @@
   list-style: none; }
   .categorias_lista li {
     color: #b7b7a4;
+    cursor: pointer;
     font-size: 120%;
     margin: 5px;
     padding: 5px;
     list-style: none;
     text-decoration: underline; }
+
+.selected_category {
+  background-color: #a5a58d;
+  color: white !important; }
 
 .galeria {
   display: flex;
