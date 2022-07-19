@@ -1,0 +1,52 @@
+{
+    "articulos": [{
+            "img": "/multimedia/baul.jpeg",
+            "title": "Baul",
+            "codigo": 1,
+            "medidas": "1,10 m ancho x 40cm alto"
+        },
+        {
+            "img": "/multimedia/cama.jpeg",
+            "title": "Cama",
+            "codigo": 2,
+            "medidas": "2m ancho x 1m alto"
+        },
+        {
+            "img": "/multimedia/comoda.jpeg",
+            "title": "Comoda",
+            "codigo": 3,
+            "medidas": "42cm x 20cm x 50cm"
+        },
+        {
+            "img": "/multimedia/mesa.jpeg",
+            "title": "Mesa",
+            "codigo": 4,
+            "medidas": "1m ancho x 80cm alto"
+        },
+        {
+            "img": "/multimedia/mesita.jpeg",
+            "title": "Mesita",
+            "codigo": 5,
+            "medidas": "50cm x 40cm de alto"
+        },
+        {
+            "img": "/multimedia/mueble.jpeg",
+            "title": "Mueble",
+            "codigo": 6,
+            "medidas": "42cm x 20cm x 50cm"
+        },
+        {
+            "img": "/multimedia/mesita2.jpeg",
+            "title": "Escritorio",
+            "codigo": 7,
+            "medidas": "32cm x 45cm"
+        },
+        {
+            "img": "/multimedia/perchero.jpeg",
+            "title": "Perchero",
+            "codigo": 8,
+            "medidas": "140cm alto x 20cm ancho"
+        }
+    ]
+
+}

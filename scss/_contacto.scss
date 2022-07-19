@@ -1,0 +1,15 @@
+.img_portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+}
+
+.img_portada{
+    img{
+        padding: 5px;
+    }
+}

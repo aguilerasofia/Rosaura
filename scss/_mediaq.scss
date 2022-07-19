@@ -1,0 +1,149 @@
+@media screen and (max-width: 768px) {
+    .galeria{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-content: space-around;
+    }
+
+    #restauraciones{
+        div{
+            display: flex;
+            flex-flow: row wrap;
+            align-items: space-between;
+            justify-content: space-around;
+        }
+    }
+
+    .formulario {
+        font-size: 100%;
+        font-weight: 100;
+        color: #8c8c6f;
+        text-align: center;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                width: 250px;
+            }
+        }
+    }
+
+
+    .img_portada {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0px 5px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .galeria_productos{
+        img{
+            width: 175px;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    #NavBar{
+        ul{
+            border: 1px solid #d4a373;
+            margin: 5px;
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            list-style: none;
+        }
+    }
+
+    .categorias_lista {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            list-style: none;
+            text-align: center;
+    }
+
+
+    .whatsapp {
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        bottom: 17px;
+        right: 20px;
+        background-color: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 20px;
+        z-index: 100;
+    }
+
+    .buttons {
+        flex-flow: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        margin: 10px;
+    }
+
+    #productos{
+        ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+    main {
+        @include flex;
+    }
+
+    .galeria_productos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img_sobremi {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: auto;
+    }
+
+    .img_portada{
+        img{
+            width: auto;
+        }
+    }
+
+    .galeria_productos{
+        img{
+            width: 200px;
+        }
+    }
+
+    .sobremi{
+        div{
+            display: flex;
+            flex-flow: column wrap;
+        }
+    }
+
+    footer{
+        div{
+            display: flex;
+            flex-flow: column wrap;
+            align-items: flex-start;
+            justify-content: flex-start;
+        }
+    }
+}

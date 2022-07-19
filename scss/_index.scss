@@ -1,0 +1,49 @@
+.carousel-item{
+    img{
+        width: auto;
+        height: 50vh;
+        object-fit: cover;
+    }
+}
+
+.categorias_lista{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    li{
+        color: #b7b7a4;
+        cursor: pointer;
+        font-size: 120%;
+        margin: 5px;
+        padding: 5px;
+        list-style: none;
+        text-decoration: underline;
+    }
+}
+
+.selected_category {
+    background-color: #a5a58d;
+    color: white !important;
+}
+
+.galeria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.articulo {
+    margin: 5px 10px;
+    width: 130px;
+    height: 130px;
+}
+
+section{
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+}

@@ -1,0 +1,33 @@
+.formulario {
+    font-size: 100%;
+    font-weight: 150;
+    color: #89896e;
+    text-align: left;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 8px;
+    background-color: #ecf0cd;
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.formulario_input {
+    height: 30px;
+    margin: 5px;
+    border: #89896e 0.5px solid;
+}
+
+
+.formulario_contacto{
+    font-size: 100%;
+    color: #8c8c6f;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}

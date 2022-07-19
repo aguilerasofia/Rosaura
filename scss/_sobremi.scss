@@ -1,0 +1,28 @@
+.img_sobremi {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+h2 {
+    font-size: 150%;
+    font-weight: 300;
+    margin: 10px;
+    color: #8c8c6f;
+    text-align: center;
+}
+
+.texto {
+    text-align: justify;
+    text-indent: 2%;
+    line-height: 25px;
+    color: #606c38;
+    background-color: #e0e4bc;
+    margin: 10px 20px;
+    padding: 8px;
+}
+
+.texto2{
+    @extend .texto;
+    background-color: #ecf0cd; 
+}

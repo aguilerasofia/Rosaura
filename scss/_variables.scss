@@ -1,0 +1,19 @@
+$colorPrincipal: #d4a373;
+$fontSize: 62, 5%;
+$fontFamily: 'Julius Sans One', sans-serif;
+$backgroundColor: #fefae0;
+
+$estilos: (
+    color:#a5a58d,
+    centro: center,
+    t-fuente: 200%,
+    margen: 10px,
+    w-fuente: 200,
+);
+
+@mixin flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
